@@ -1,3 +1,8 @@
+
+Video:
+  https://www.youtube.com/watch?v=0wJCxEDDetE
+
+
 Create the aplication:
 $ npx create-react-app front-web --template typescript
 
@@ -9,3 +14,8 @@ $ yarn add bootstrap-sass
 
 Install sass
 $ yarn add sass
+
+Creating the routes version 6 installed
+$ yard add react-router-dom
+
+
