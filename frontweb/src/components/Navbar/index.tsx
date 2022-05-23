@@ -1,21 +1,13 @@
-import {
-  Button,
-  Container,
-  Form,
-  FormControl,
-  Nav,
-  Navbar,
-  NavDropdown,
-} from "react-bootstrap";
+import { Container, Nav, Navbar } from "react-bootstrap";
+
+import "./styles.css";
 
 function NavbarC() {
   return (
     <>
       <Navbar bg="primary" className="navbar navbar-dark bg-dark" expand="lg">
         <Container fluid>
-          <Navbar.Brand className="text-white" href="#">
-            Navbar scroll
-          </Navbar.Brand>
+          <Navbar.Brand href="#">DS Catalog</Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
             <Nav
@@ -23,33 +15,10 @@ function NavbarC() {
               style={{ maxHeight: "500px" }}
               navbarScroll
             >
-              <Nav.Link href="home">Home</Nav.Link>
-              <Nav.Link href="#action2">Link</Nav.Link>
-              <NavDropdown title="Link" id="navbarScrollingDropdown">
-                <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
-                <NavDropdown.Item href="#action4">
-                  Another action
-                </NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item href="#action5">
-                  Something else here
-                </NavDropdown.Item>
-              </NavDropdown>
-              <Nav.Link href="#" disabled>
-                Link
-              </Nav.Link>
+              <Nav.Link href="home">HOME</Nav.Link>
+              <Nav.Link href="#action2">CATÁLOGO</Nav.Link>
+              <Nav.Link href="#action2">ADM</Nav.Link>
             </Nav>
-            <Form className="d-flex">
-              <FormControl
-                type="search"
-                placeholder="Search"
-                className="me-2"
-                aria-label="Search"
-              />
-              <Button className="text-white" variant="outline-success">
-                Search
-              </Button>
-            </Form>
           </Navbar.Collapse>
         </Container>
       </Navbar>
