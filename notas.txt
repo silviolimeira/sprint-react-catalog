@@ -1,0 +1,11 @@
+Create the aplication:
+$ npx create-react-app front-web --template typescript
+
+Install react-bootstrap and bootstrap
+$ yard add react-bootstrap bootstrap
+
+Install bootstrap-sass
+$ yarn add bootstrap-sass
+
+Install sass
+$ yarn add sass
