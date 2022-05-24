@@ -1,4 +1,98 @@
 
+@media (min-width: 1024px) {
+    .card {
+        margin: 30px;
+        border-radius: 20px;
+        background-color: blueviolet;
+    }
+    
+    .page-home {
+        background-color:green;
+        display: flex;
+        padding: 10px;
+        height: 1366px;
+        width: 1024px;
+        flex-direction: col;
+        align-items: center;
+        flex-direction:column;
+        margin: auto;
+    }
+    
+    .page-home-content {
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        background-color: yellow;
+    }
+    
+    .page-home-main-image {
+        display: flex;
+        align-items: center;
+        margin-top: 125px;
+    }
+    
+    .page-home-main-image > svg {
+        background-color: red;
+        /*padding: 40px;*/
+    }
+    
+    .page-home-botao {
+        display: flex;
+        flex-direction: row-reverse;
+        padding-top: 0;
+        margin: 47px auto auto auto;
+        width: 450px;
+        height: 70px;
+    }
+    
+    .page-home-botao-b1 {
+        margin: 0;
+        /*height: 50px;*/
+        width: 70px;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        font-size: 24px;
+        font-weight: 700;
+        background-color:rgba(38, 50, 56, 0.7);
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    
+    .page-home-botao-b2 {
+        /*height: 50px;*/
+        width:100px;
+        flex-grow: 3;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        font-size: 24px;
+        font-weight: 700;
+        background-color: rgba(64, 123, 255, 1);
+    }
+    
+    
+    .card-title {
+        background-color: darkgoldenrod;
+        font-weight: 700;
+        font-size: 55px;
+        text-align: center;
+        margin: 87px auto auto auto;
+        width: 585px;
+        
+    }
+    
+    .card-text {
+        background-color: burlywood;
+        margin-left: 90px;
+        text-align: center;
+        font-size: 24px;
+        color:rgba(158, 158, 158, 1);
+        padding-bottom: 0px;
+        margin: 26px auto auto auto;
+        width: 576px;
+    }
+}
 
 
 
