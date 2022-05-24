@@ -1,3 +1,99 @@
+@media (min-width: 414px) {
+    .card {
+        margin: 30px;
+        border-radius: 20px;
+        background-color: blueviolet;
+    }
+    
+    .page-home {
+        background-color:green;
+        width: 374px;
+        height: 646px;
+
+        display: flex;
+        padding: 10px;
+        flex-direction: col;
+        align-items: center;
+        flex-direction:column;
+        margin: auto;
+    }
+    
+    .page-home-content {
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        background-color: yellow;
+    }
+    
+    .page-home-main-image {
+        display: flex;
+        align-items: center;
+        margin-top: 50px;
+    }
+    
+    .page-home-main-image > svg {
+        background-color: red;
+        width: 339px;
+        height:252px;
+    }
+    
+    .page-home-botao {
+        display: flex;
+        flex-direction: row-reverse;
+        margin: 33px auto auto auto;
+        width: 334px;
+        height: 50px;
+    }
+    
+    .page-home-botao-b1 {
+        margin: 0;
+        /*height: 50px;*/
+        width: 50px;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        font-size: 16px;
+        font-weight: 700;
+        background-color:rgba(38, 50, 56, 0.7);
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    
+    .page-home-botao-b2 {
+        /*height: 50px;*/
+        width:100px;
+        flex-grow: 3;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        font-size: 16px;
+        font-weight: 700;
+        background-color: rgba(64, 123, 255, 1);
+    }
+    
+    
+    .card-title {
+        background-color: darkgoldenrod;
+        font-weight: 700;
+        font-size: 26px;
+        text-align: center;
+        margin: 39px auto auto auto;
+        width: 330px;
+        
+    }
+    
+    .card-text {
+        background-color: burlywood;
+        text-align: center;
+        font-size: 16px;
+        color:rgba(158, 158, 158, 1);
+        padding-bottom: 0px;
+        margin: 15px auto auto auto;
+        width: 243px;
+    }
+}
+
+
 
 @media (min-width: 1024px) {
     .card {
