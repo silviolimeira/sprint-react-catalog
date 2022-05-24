@@ -18,4 +18,8 @@ $ yarn add sass
 Creating the routes version 6 installed
 $ yard add react-router-dom
 
+Novidades React 18
+Lazy Loaging Route Example
+https://www.alura.com.br/artigos/react-conheca-novidades-versao-18-react#:~:text=Temos%20agora%20uma%20nova%20vers%C3%A3o%20do%20React%20dispon%C3%ADvel%2C,lado%20do%20servidor%20com%20o%20uso%20do%20Suspense.
+
 
