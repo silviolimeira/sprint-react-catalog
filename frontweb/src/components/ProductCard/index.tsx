@@ -12,7 +12,7 @@ import "./styles.css";
 
 function ProductCard() {
   return (
-    <Card>
+    <Card className="product-card">
       <Card.Body className="product-card-body">
         <div className="component-product-card-img">
           <img src={require("assets/images/desktop.png")} alt="Desktop" />

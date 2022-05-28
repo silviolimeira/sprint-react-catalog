@@ -1,18 +1,14 @@
-/*
-.card-body {
-    background-color: yellow;
+.product-card {
+    margin: 10px 10px 0 10px;;
+    border-radius: 10px;
+}
+
+.product-card-body {
     display:flex;
     flex-flow: column wrap;
     flex-wrap: wrap;
     align-content: center;
-    border-radius: 10px;
-    width: 372;
-    height: 282;
-}
-*/
-
-.product-card-body {
-
+    margin: auto;
 }
 
 .component-product-card-img  {
@@ -22,10 +18,12 @@
 .component-product-card-img > img {
     width: 140px;
     height:140px;
+    
     display:flex;
     flex-flow: column wrap;
     flex-wrap: wrap;
     align-content: center;
+    margin: auto;
 }
 
 .card-title {
@@ -35,40 +33,30 @@
 }
 
 .component-product-card-text {
-    /*display:flex;*/
-    background-color: blueviolet;
-    /*
-    margin: 0;
-    padding: 0;
-    */
-    /*
-    align-items: flex-start;
-    flex-flow: row wrap;
-    flex-wrap: wrap;
-    align-left: flex-start;
-    */
-    display: flex;
-    flex-flow: col wrap;
+    display:flex;
+    align-content:flex-start;
+    margin: 0 0 10px 30px;
+    
     width: 100px;
 }
 
 .component-product-card-text-c1 {
     padding: 5px 0 0 0;
-    width: 30px;
     font-size: 16px;
     text-align:left;
     font-weight: 400;
 }
 
 .component-product-card-text-c2 {
-    background-color: blue;
+    color:rgba(64, 123, 255, 1);
+    margin-left: 10px;
     text-align: left;
     font-size: 30px;
     font-weight: 700;
 }
 
 .component-product-card-text-c3 {
-    background-color: blue;
+    color:rgba(64, 123, 255, 1);
     text-align: left;
     font-size: 30px;
     font-weight: 700;
