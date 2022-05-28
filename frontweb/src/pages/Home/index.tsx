@@ -21,7 +21,7 @@ function Home() {
               <Button variant="primary text-white page-home-botao-b1">
                 &gt;
               </Button>
-              <Button variant="primary text-white page-home-botao-b2">
+              <Button variant="page-home-botao-b2">
                 INICIE AGORA A SUA BUSCA
               </Button>
             </div>

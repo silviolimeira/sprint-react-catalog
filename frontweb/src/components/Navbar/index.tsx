@@ -16,7 +16,7 @@ function NavbarC() {
               navbarScroll
             >
               <Nav.Link href="home">HOME</Nav.Link>
-              <Nav.Link href="#action2">CATÁLOGO</Nav.Link>
+              <Nav.Link href="catalog">CATÁLOGO</Nav.Link>
               <Nav.Link href="#action2">ADM</Nav.Link>
             </Nav>
           </Navbar.Collapse>

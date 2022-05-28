@@ -8,6 +8,7 @@ import "assets/styles/scss/custom.scss";
 import Home from "pages/Home";
 /*const Home = lazy(() => import("pages/Home"));*/
 const HomeLazy = lazy(() => import("pages/Home"));
+const Catalog = lazy(() => import("pages/Catalog"));
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="home" element={<HomeLazy />} />
+            <Route path="catalog" element={<Catalog />} />
           </Routes>
         </Suspense>
       </Router>
