@@ -6,7 +6,7 @@ import { ReactComponent as MainImage } from "assets/images/main-image.svg";
 function Home() {
   return (
     <>
-      <Card className="text-center">
+      <Card className="page-home-card">
         <Card.Body className="page-home">
           <div className="page-home-main-image">
             <MainImage />

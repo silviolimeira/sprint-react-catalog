@@ -1,6 +1,8 @@
 import ProductCard from "components/ProductCard";
 import ProductSearch from "components/ProductSearch";
 
+import "./styles.css";
+
 function Catalog() {
   const product = {
     id: 123,
@@ -11,8 +13,14 @@ function Catalog() {
   return (
     <>
       <ProductSearch />
-      <div className="container">
+      <div className="page-catalog">
         <div className="row">
+          <div key={product.id} className="col-sm-6 col-lg-4 col-xl-3 mb-3">
+            <ProductCard />
+          </div>
+          <div key={product.id} className="col-sm-6 col-lg-4 col-xl-3 mb-3">
+            <ProductCard />
+          </div>
           <div key={product.id} className="col-sm-6 col-lg-4 col-xl-3 mb-3">
             <ProductCard />
           </div>

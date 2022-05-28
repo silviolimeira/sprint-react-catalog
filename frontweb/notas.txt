@@ -4,3 +4,5 @@ Study Recat webpack for large projects
 
 https://aglowiditsolutions.com/blog/react-webpack/
 
+Ebook
+https://www.amazon.com/Modern-Full-Stack-Development-TypeScript-Node-js/dp/1484257375/ref=sr_1_1?crid=20PQ038E7MUR8&keywords=react+webpack&qid=1653744564&sprefix=react+%2Caps%2C171&sr=8-1

@@ -12,44 +12,21 @@ import "./styles.css";
 
 function ProductCard() {
   return (
-    <>
-      <Card>
-        <Card.Body>
-          <div>
-            <img src={require('assets/images/desktop.png')} alt="Desktop" />
-          </div>
-          <InputGroup className="mb-3">
-            <div className="product-search-container1">
-              <FormControl
-                placeholder="Nome do produto"
-                aria-label="Nome do produto"
-                aria-describedby="basic-addon2"
-              />
-              <Button variant="light outline-secondary" id="button-addon2">
-                <Search />
-              </Button>
-            </div>
-            <div className="product-search-container2">
-              <Form.Select
-                className="light outline-secondary"
-                aria-label="Default select example"
-              >
-                <option>Categoria</option>
-                <option value="1">One</option>
-                <option value="2">Two</option>
-                <option value="3">Three</option>
-              </Form.Select>
-              <Button
-                className="product-search-container2-button"
-                variant="light"
-              >
-                LIMPAR FILTRO
-              </Button>
-            </div>
-          </InputGroup>
-        </Card.Body>
-      </Card>
-    </>
+    <Card>
+      <Card.Body className="product-card-body">
+        <div className="component-product-card-img">
+          <img src={require("assets/images/desktop.png")} alt="Desktop" />
+        </div>
+        <Card.Title>Computador Desktop - Intel Core i7</Card.Title>
+        <div className="component-product-card-text">
+          <Card.Text className="component-product-card-text-c1">R$</Card.Text>
+          <Card.Text className="component-product-card-text-c2">
+            2.799
+          </Card.Text>
+          <Card.Text className="component-product-card-text-c3">,00</Card.Text>
+        </div>
+      </Card.Body>
+    </Card>
   );
 }
 

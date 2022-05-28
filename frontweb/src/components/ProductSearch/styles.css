@@ -1,23 +1,36 @@
-#button-addon2 {
-    color: rgba(158, 158, 158, 1);
-    border: 1px solid #E1E1E1;
-    font-size: 16px;
-    font-weight: 400;
-    margin-top: 5px;
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
+
+.product-search-card {
+    background-color: transparent;
+    border-color: transparent;
+    border-radius: 0;
+    margin: 10px;
+}
+
+.product-search-header {
+    margin: 10px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.product-search-card-body {
+    background-color: white;
+    padding: 30px 30px 10px 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+
+    /*flex-flow: row wrap;*/
     
 }
 
-.card {
-    background-color: white;
+.product-search {
     width: 374px;
     height: 141px;
-    padding: 0px;
-    margin: 20px;    
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column wrap;
 }
+
+
 
 .product-search-container1 {
     display: flex;
@@ -25,49 +38,77 @@
     width: 100%;
     font-size: 16px;
     font-weight: 400;
+    border-bottom: 1px solid rgba(158, 158, 158, 1);
 }
 
 .product-search-container1 .form-control {
+}
+
+
+
+
+
+.product-search-container1 > input {
     background-color: white;
+    border: transparent;
+}
+
+#button-addon2 {
+    color: rgba(158, 158, 158, 1);
+    border: 2px solid #E1E1E1;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 5px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+
+    background-color: white;
+    border: transparent;
+    
+}
+
+
+.product-search-container1 .form-control {
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
 }
 
 .product-search-container2 {
     display: flex;
-    background-color: white;
     width: 100%;
     margin: 24px auto auto auto;
 }
 
 .product-search-container2 .form-select {
-    background-color: white;
     font-size: 16px;
     font-weight: 400;
     color: rgba(158, 158, 158, 1);
-    border-radius: 10px;
-    margin-right:20px
+    margin-right:20px;
+    background-color: white;
+
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
 }
 
 .product-search-container2 .product-search-container2-button {
-    background-color: white;
     font-size: 12px;
     font-weight: 700;
-    width: 192px;
+    width: 212px;
     height: 40px;
     align-items: center;
-    margin: 0 0 0 0 ;
-    padding: 0 10px 0 10px;
     border-radius: 10px;
     border: 1px solid #E1E1E1;
     color: rgba(158, 158, 158, 1);
 }
 
-
 .form-control {
-    background-color: white;
     font-weight: 400;
     font-size: 16px;
     margin-top: 5px;

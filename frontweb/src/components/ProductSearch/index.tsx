@@ -13,9 +13,10 @@ import "./styles.css";
 function ProductSearch() {
   return (
     <>
-      <Card>
-        <Card.Body>
-          <div className="ss">
+      <div className="product-search-header">Catálogo de Produtos</div>
+      <Card className="product-search-card">
+        <Card.Body className="product-search-card-body">
+          <div className="product-search">
             <InputGroup className="mb-3">
               <div className="product-search-container1">
                 <FormControl
