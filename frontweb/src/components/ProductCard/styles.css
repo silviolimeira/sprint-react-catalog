@@ -11,6 +11,13 @@
     margin: auto;
 }
 
+.product-card-body > a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    color: rgba(38,50,56,1);
+}
+
 .component-product-card-img  {
     margin: auto auto auto auto;
 }

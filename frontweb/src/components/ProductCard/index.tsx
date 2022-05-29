@@ -1,5 +1,6 @@
 import { Button, Card, Form, FormControl, InputGroup } from "react-bootstrap";
 import { Search } from "react-bootstrap-icons";
+import { Link } from "react-router-dom";
 
 /*
 react-bootstrap-icons
@@ -15,9 +16,14 @@ function ProductCard() {
     <Card className="product-card">
       <Card.Body className="product-card-body">
         <div className="component-product-card-img">
-          <img src={require("assets/images/desktop.png")} alt="Desktop" />
+          <Link to="/productdetail">
+            <img src={require("assets/images/desktop.png")} alt="Desktop" />
+          </Link>
         </div>
-        <Card.Title>Computador Desktop - Intel Core i7</Card.Title>
+        <Link to="/productdetail">
+          <Card.Title>Computador Desktop - Intel Core i7</Card.Title>
+        </Link>
+
         <div className="component-product-card-text">
           <Card.Text className="component-product-card-text-c1">R$</Card.Text>
           <Card.Text className="component-product-card-text-c2">

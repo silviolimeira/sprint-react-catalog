@@ -1,0 +1,118 @@
+
+.product-detail {
+    margin: 10px;
+    border-radius: 20px;
+    
+}
+
+.product-detail-come-back {
+    display: flex;
+    width: 150px;
+    /*background-color: green;*/
+    
+    margin: 0px 0px 20px 0;
+    padding: 0;
+    align-items: center;
+    
+}
+
+.product-detail-come-back > a {
+    display:flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 700;
+    color:rgba(38,50,56,1);
+    
+}
+
+.product-detail-come-back-img {
+    
+    /*background-color: pink;*/
+    margin-right: 20px;
+    
+}
+
+
+.product-detail-image {
+    width: 100%;
+    /*background-color: red;*/
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    border: 1px solid rgba(225, 225, 225, 1);
+
+}
+
+.product-detail-image > img {
+    /*flex-grow:2;*/
+    width: 269px;
+    height: 269px;
+    margin: 5px;
+}
+
+.product-detail-info {
+    text-decoration: none;
+    /*background-color: yellow;*/
+
+}
+
+.product-detail-info-title {
+    text-decoration: none;
+    text-align: left;
+    font-size: 30px;
+    font-weight: 700;
+    color: rgba(38,50,56,1);
+    margin-top: 10px;
+}
+
+.product-detail-info > a {
+    text-decoration: none;
+}
+
+.product-detail-text {
+    display:flex;
+    align-content:flex-start;
+    margin: 0 0 5px 0px;
+    width: 100px;
+}
+
+.product-detail-text-c1 {
+    padding: 5px 0 0 0;
+    font-size: 16px;
+    text-align:left;
+    font-weight: 400;
+}
+
+.product-detail-text-c2 {
+    color:rgba(64, 123, 255, 1);
+    margin-left: 10px;
+    text-align: left;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.product-detail-text-c3 {
+    color:rgba(64, 123, 255, 1);
+    text-align: left;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.product-detail-description {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 20px;
+ 
+    border-radius: 20px;
+    border: 1px solid rgba(225, 225, 225, 1);
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(158,158,158,1);
+}
+
+.product-detail-description > h4{
+    font-size: 18px;
+    font-weight: 700;
+    color: rgba(158,158,158,1);
+}
