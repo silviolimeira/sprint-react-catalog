@@ -13,13 +13,9 @@
 }
 .product-search-card-body {
     background-color: white;
-    /*padding: 30px 30px 10px 30px;*/
     border-radius: 10px;
     display: flex;
     flex-wrap: wrap;
-
-    /*flex-flow: row wrap;*/
-    
 }
 
 .product-search {
@@ -51,20 +47,18 @@
 .product-search-container1 > input {
     background-color: white;
     border: transparent;
+    /*z-index: 3;*/
 }
 
 #button-addon2 {
     color: rgba(158, 158, 158, 1);
-    border: 2px solid #E1E1E1;
+    /*border: 2px solid #E1E1E1;*/
     font-size: 16px;
     font-weight: 400;
     margin-top: 5px;
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
-
+    border-radius: 0;
     background-color: white;
-    border: transparent;
-    
+    margin-left: 5px;
 }
 
 
