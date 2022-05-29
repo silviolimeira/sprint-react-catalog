@@ -1,3 +1,4 @@
+import Pages from "components/Pagination";
 import ProductCard from "components/ProductCard";
 import ProductSearch from "components/ProductSearch";
 
@@ -26,6 +27,7 @@ function Catalog() {
           </div>
         </div>
       </div>
+      <Pages />
     </>
   );
 }

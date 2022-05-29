@@ -13,7 +13,7 @@
 }
 .product-search-card-body {
     background-color: white;
-    padding: 30px 30px 10px 30px;
+    /*padding: 30px 30px 10px 30px;*/
     border-radius: 10px;
     display: flex;
     flex-wrap: wrap;
@@ -24,7 +24,7 @@
 
 .product-search {
     width: 374px;
-    height: 141px;
+    height: 121px;
     display: flex;
     flex-wrap: wrap;
     flex-flow: column wrap;

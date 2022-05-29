@@ -1,0 +1,64 @@
+
+.pages-component {
+    background-color: green;
+    background-color: transparent;
+
+    display: flex;
+    justify-content: center;
+
+    padding: 10px;
+    margin-left:10px;
+}
+
+.pages-component-pn {
+    background-color: transparent;
+    border-color: transparent;
+    border-radius: 50%;
+    color: rgba(245, 245, 245, 1);
+    font-weight: 700;
+    min-width: 40px;
+    min-height:40px;
+    margin-left:5px;
+    margin-right:5px;
+}
+
+.pages-component-pn-lastfirst {
+    border-radius: 50%;
+    color: rgba(128, 128, 128, 0.4);
+    background-color: transparent;
+    border-color: transparent;
+    font-weight: 700;
+}
+
+.pages-component-pn-active {
+    color: rgba(64, 123, 255, 1);
+}
+
+
+.pages-component-pn-active {
+    /*background-color: transparent;*/
+    border-radius: 50%;
+    color: rgba(64, 123, 255, 1);
+    font-weight: 700;
+}
+
+.pages-component-item {
+    background-color: rgba(128, 128, 128, 0.4);
+    border-radius:50%;
+}
+
+.pages-component-item-active {
+    background-color: rgba(64, 123, 255, 1);
+    border-radius:50%;
+}
+
+
+.pages-component .pagination {
+    background-color: blue;
+}
+
+.pages-component-button .page-item > li {
+
+    background-color: purple;
+    border-radius: 20px;
+}
