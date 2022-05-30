@@ -18,3 +18,14 @@ https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
 React Bootstrap
 https://react-bootstrap.github.io/
+
+How To Set Up a React Project with Create React App
+https://www.digitalocean.com/community/tutorials/how-to-set-up-a-react-project-with-create-react-app
+
+Tutorial Series - DigitalOcean - community
+How To Code in JavaScript
+https://www.digitalocean.com/community/tutorial_series/how-to-code-in-javascript
+
+Como personalizar os componentes React com props
+https://www.digitalocean.com/community/tutorials/how-to-customize-react-components-with-props-pt
+

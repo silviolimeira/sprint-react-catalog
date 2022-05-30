@@ -1,0 +1,53 @@
+.component-login {
+    background-color: transparent;
+}
+
+.component-login-body {
+    height: 500px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+    align-items: baseline;
+    justify-content: center;
+    
+}
+
+.component-login .card-body > input {
+    display: flex;
+    background-color: transparent;
+}
+
+.component-login-body > a {
+    color:rgba(64,123,255,1);
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.component-login-body > h4 {
+    color:rgba(158,158,158,1);
+    font-weight: 700;
+    font-size: 16px;
+    margin: 10px;
+
+}
+
+.component-login-text {
+    color:rgba(64,123,255,1);
+    display: flex;
+    width:100%;
+    flex-flow: column wrap;
+    align-content: flex-start;
+    margin: 10px 0 30px 0px;
+}
+
+.component-login-body > .card-title {
+    margin: 50px 0 50px 0;
+    font-size: 30px;
+    font-weight: 400;
+    font-color: rgba(38,50,58,1);
+}

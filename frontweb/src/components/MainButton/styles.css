@@ -1,0 +1,36 @@
+
+.component-main-button {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 33px auto auto auto;
+    width: 334px;
+    height: 50px;
+}
+    
+.component-main-button-b1 {
+    margin: 0;
+    /*height: 50px;*/
+    width: 50px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    font-size: 16px;
+    font-weight: 700;
+    background-color:rgba(51, 86, 155, 1);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: white;
+}
+    
+.component-main-button-b2 {
+    /*height: 50px;*/
+    width:100px;
+    flex-grow: 3;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: rgba(64, 123, 255, 1);
+    color: white;
+}

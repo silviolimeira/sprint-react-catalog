@@ -2,6 +2,7 @@ import "./styles.css";
 
 import { ReactComponent as ComeBack } from "assets/images/comeback.svg";
 import { Link } from "react-router-dom";
+import ProductPrice from "components/ProductPrice";
 
 function ProductDetail() {
   return (
@@ -14,7 +15,6 @@ function ProductDetail() {
               VOLTAR
             </Link>
           </div>
-
           <div className="product-detail-image">
             <img
               src={require("assets/images/desktop-detail.png")}
@@ -23,15 +23,8 @@ function ProductDetail() {
           </div>
           <div className="product-detail-info">
             <Link to="/productdetail">
-              <div className="product-detail-info-title">
-                Computador Desktop - Intel Core i7
-              </div>
+              <ProductPrice />
             </Link>
-            <div className="product-detail-text">
-              <div className="product-detail-text-c1">R$</div>
-              <div className="product-detail-text-c2">2.799</div>
-              <div className="product-detail-text-c3">,00</div>
-            </div>
           </div>
           <div className="product-detail-description">
             <h4>Descrição do Produto</h4>

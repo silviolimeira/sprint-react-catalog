@@ -2,10 +2,13 @@ import { Button, Card } from "react-bootstrap";
 
 import "./styles.css";
 import { ReactComponent as MainImage } from "assets/images/main-image.svg";
+import LoginCard from "components/LoginCard";
+import MainButton from "components/MainButton";
 
 function Home() {
   return (
     <>
+      <LoginCard />
       <Card className="page-home-card">
         <Card.Body className="page-home">
           <div className="page-home-main-image">
@@ -17,14 +20,7 @@ function Home() {
               Ajudaremos vocÊ a encontrar os melhores produtos disponíveis no
               mercado
             </Card.Text>
-            <div className="page-home-botao">
-              <Button variant="primary text-white page-home-botao-b1">
-                &gt;
-              </Button>
-              <Button variant="page-home-botao-b2">
-                INICIE AGORA A SUA BUSCA
-              </Button>
-            </div>
+            <MainButton key={"mb2"} title={"INICIE AGORA A SUA BUSCA"} />
           </div>
         </Card.Body>
       </Card>

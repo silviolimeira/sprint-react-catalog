@@ -1,3 +1,4 @@
+import ProductPrice from "components/ProductPrice";
 import { Button, Card, Form, FormControl, InputGroup } from "react-bootstrap";
 import { Search } from "react-bootstrap-icons";
 import { Link } from "react-router-dom";
@@ -21,16 +22,8 @@ function ProductCard() {
           </Link>
         </div>
         <Link to="/productdetail">
-          <Card.Title>Computador Desktop - Intel Core i7</Card.Title>
+          <ProductPrice />
         </Link>
-
-        <div className="component-product-card-text">
-          <Card.Text className="component-product-card-text-c1">R$</Card.Text>
-          <Card.Text className="component-product-card-text-c2">
-            2.799
-          </Card.Text>
-          <Card.Text className="component-product-card-text-c3">,00</Card.Text>
-        </div>
       </Card.Body>
     </Card>
   );
