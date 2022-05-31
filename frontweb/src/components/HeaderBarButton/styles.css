@@ -1,0 +1,61 @@
+
+.component-header-bar {
+    background-color: white;
+    margin:0;
+    padding:0;
+    border-radius: 0;
+}
+
+.component-header-bar-body {
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.component-header-bar-button {
+    color: rgba(158,158,158,1);
+    background-color: rgba(242,242,242,1);
+    border-color: transparent;
+    padding: 20px;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 100px;
+    min-height: 29px;
+}
+
+.component-header-bar-body > button {
+    color: rgba(158,158,158,1);
+    background-color: rgba(242,242,242,1);
+    border-color: transparent;
+}
+
+.component-header-bar-body > button:hover {
+    color: rgba(64,123,255,1);
+    background-color: rgba(64,123,255,0.3);
+    border-color: transparent;
+}
+
+.component-header-bar-body > button:active:focus {
+    background-color: rgba(242,242,242,1);
+    border-color: rgba(242,242,242,1);
+    border-color: transparent;
+}
+
+.component-header-bar-body > button:focus {
+    color: rgba(64,123,255,1);
+    background-color: rgba(64,123,255,0.3);
+    border-color: transparent;
+    box-shadow: none;
+}
+
+.component-header-bar-button {
+    color: rgba(158,158,158,1);
+    background-color: rgba(242,242,242,1);
+    border-color: transparent;
+    padding: 20px;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 100px;
+    min-height: 29px;
+}

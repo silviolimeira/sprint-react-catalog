@@ -4,10 +4,12 @@ import "./styles.css";
 import { ReactComponent as MainImage } from "assets/images/main-image.svg";
 import LoginCard from "components/LoginCard";
 import MainButton from "components/MainButton";
+import HeaderBarButton from "components/HeaderBarButton";
 
 function Home() {
   return (
     <>
+      <HeaderBarButton />
       <LoginCard />
       <Card className="page-home-card">
         <Card.Body className="page-home">

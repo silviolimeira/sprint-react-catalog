@@ -1,5 +1,12 @@
 .component-login {
     background-color: transparent;
+    max-width: 384px;
+    max-height: 646px;
+    min-width: 374px;
+    min-height: 646px;
+    padding: 20px;
+    margin: auto;
+    border-color: transparent;
 }
 
 .component-login-body {
